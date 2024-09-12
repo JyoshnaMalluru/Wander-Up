@@ -1,0 +1,145 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color: #989090;
+    background-color: #ffffff;
+    margin: 0;
+}
+.logo{
+    font-size: 1em;
+    padding: 1em;
+    margin-right: 7em;
+    text-shadow: 0em 0.01em 0em 0.01em;
+}
+section {
+    display: flex;
+    justify-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+nav{
+    display: flex;
+    justify-items: center;
+}
+
+#Categories {
+    background-color: black;
+    border-radius: 0.5em;
+    height: 2.7em;
+    width: 8em;
+    margin: 0.75em;
+    margin-right: 0.25em;
+    padding: 0.3em ;
+    align-content: center;
+    justify-self: end;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 420px;
+    height: 2.5em;
+    margin-right: 5em;
+}
+.search-input {
+    width: 32em;
+    border-radius: 0.4em 0rem 0rem 0.4rem;
+    height: 2.3em;
+    margin: 0.75em;
+    margin-left: 0.25em;
+    justify-self: start;
+    border-color: #B0BABF;
+    border-left-color: #B0BABF ;
+    border-top-color: #B0BABF ;
+}
+.border {
+    border: 2px solid #989090;
+    padding: 7.6px;
+    background-color: #f9f7f7;
+    border-radius: 0rem 0.4rem 0.4rem 0rem;
+}
+.side-bar {
+    height: 1em;
+    width: 1em;
+}
+#search-icon {
+    margin: 1.6em 0.75em 0.75em -0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.fav {
+    margin: 0.75em;
+    margin-top: 1.5em;
+    font-size: smaller;
+}
+
+#sign-in {
+    border-radius: 0.75em;
+    height: 2.7em;
+    width: 6.5em;
+    margin: 0.75em;
+    border-color: #B0BABF;
+}
+#location {
+    font-size: 0.75em;
+    font-weight: 800;
+    margin-left: 8em;
+    margin-right: 15em;
+
+}
+p{
+    display: inline;
+    justify-items: center;
+    justify-content: flex-start;
+    padding: 0.5em;
+    font-size: 0.75em;
+    font-weight: 800;
+}
+.banner-msg {
+    margin-top: 1em;
+    background-size: cover;
+    height: 46em;
+    position: relative;
+    margin-bottom: 13em;
+}
+.heading {
+    margin-left: 8em;
+}
+.heading1 {
+    position: absolute;
+    top : 16%;
+    bottom: 74%;
+    color: #f9f7f7;
+    font-weight: 900;
+    font-size: 3.5em;
+    text-align: right;
+    left: 40%
+}
+.recommendedplaces {
+    height: 22em;
+    width: 22em;
+    background-color: transparent;
+    border-radius: 0.75em;
+    margin-top: -5rem;
+}
+.recommendedplaces :hover {
+    /* opacity: 0.9; */
+    height: 23em;
+    width: 23em;
+}
+.place {
+    height: 22rem;
+    width: 22rem;
+    border-radius: 50px;
+}
+
+.allevents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
